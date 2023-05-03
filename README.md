@@ -1,6 +1,6 @@
 
 
-## Hoisted link: https://textutils-web-app.netlify.app/about
+## Hoisted link: https://textutils-web-app.netlify.app/
 
 
 • Text Formatter: A tool that takes in text as input and formats it according to the user's preferences. Users can choose to capitalize the first letter of each word, change the font, adjust the line spacing, and more.</br>

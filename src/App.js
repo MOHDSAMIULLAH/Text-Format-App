@@ -30,19 +30,19 @@ function App() {
       setMode('dark');
       document.body.style.backgroundColor = '#09182e';
       showAlert("Dark mode has been enable", "success")
-      document.title = "TextUtils - Dark Mode";
+      document.title = "Text Format App - Dark Mode";
       // setInterval(() => {
-      //     document.title = "TextUtils  is Amazing";
+      //     document.title = "Text Format App  is Amazing";
       // }, 2000);
       // setInterval(() => {
-      //     document.title = "Install TextUtils";
+      //     document.title = "Install Text Format App";
       // }, 1500);
       }
       else{
         setMode('light');
         document.body.style.backgroundColor = 'white';
         showAlert("Light mode has been enable", "success")
-        document.title = "TextUtils - light Mode";
+        document.title = "Text Format App - light Mode";
       }
   }
 
@@ -72,8 +72,8 @@ function App() {
    
   <>
   <Router>
-  {/* <Navbar title="TExtUtils" aboutText="About Text" /> */}
-  <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
+  {/* <Navbar title="Text Formatter App" aboutText="About Text" /> */}
+  <Navbar title="Text Format App" mode={mode} toggleMode={toggleMode} />
   <Alert alert= {alert}/>
   <div className="container my-3" >
     <Routes>
